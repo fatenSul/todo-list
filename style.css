@@ -1,0 +1,70 @@
+.todo-container {
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow for depth */
+    width: 300px; /* Set a fixed width */
+    margin: 30px auto; /* Center the box */
+    padding: 20px;
+    background-color: olivedrab;
+}
+
+
+h2{
+    text-align: center;
+    font-style: italic;
+}
+h1 {
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Spacing below the title */
+}
+
+.input-field {
+    display: flex;
+    justify-content: space-between; /* Space out input and button */
+    margin-bottom: 20px; /* Spacing below the input field */
+}
+
+#taskInput {
+    flex-grow: 1; /* Input takes up remaining space */
+    padding: 10px;
+    margin-right: 10px; /* Space between input field and button */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+.add-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.tasks {
+    list-style: none; /* Remove default list styling */
+    padding-left: 0; /* Remove default padding */
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between tasks */
+}
+
+.task input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and text */
+}
+
+/* Style for the completed task */
+.deletetask {
+    text-decoration: line-through;
+    color: #A9A9A9; /* Grey text color */
+}
+
+/* Additional styles for buttons and inputs when hovering or focusing */
+input[type="text"]:focus, button:hover {
+    border-color: #4CAF50; /* Green border */
+    outline: none; /* Remove default focus outline */
+}
