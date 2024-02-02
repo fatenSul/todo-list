@@ -1,9 +1,9 @@
 .todo-container {
-    background-color: #fff; /* White background */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Drop shadow for depth */
-    width: 300px; /* Set a fixed width */
-    margin: 30px auto; /* Center the box */
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    margin: 30px auto;
     padding: 20px;
     background-color: olivedrab;
 }
@@ -14,57 +14,56 @@ h2{
     font-style: italic;
 }
 h1 {
-    color: #333; /* Dark text color */
-    text-align: center; /* Center the title */
-    margin-bottom: 20px; /* Spacing below the title */
+    color: #333;
+    text-align: center; 
+    margin-bottom: 20px; 
 }
 
 .input-field {
     display: flex;
-    justify-content: space-between; /* Space out input and button */
-    margin-bottom: 20px; /* Spacing below the input field */
+    justify-content: space-between; 
+    margin-bottom: 20px;
 }
 
 #taskInput {
-    flex-grow: 1; /* Input takes up remaining space */
+    flex-grow: 1; 
     padding: 10px;
-    margin-right: 10px; /* Space between input field and button */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 4px; /* Rounded corners */
+    margin-right: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .add-btn {
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer */
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
 }
 
 .tasks {
-    list-style: none; /* Remove default list styling */
-    padding-left: 0; /* Remove default padding */
+    list-style: none; 
+    padding-left: 0; 
 }
 
 .task {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; /* Space between tasks */
+    margin-bottom: 10px; 
 }
 
 .task input[type="checkbox"] {
-    margin-right: 10px; /* Space between checkbox and text */
+    margin-right: 10px; 
 }
 
-/* Style for the completed task */
+
 .deletetask {
     text-decoration: line-through;
-    color: #A9A9A9; /* Grey text color */
+    color: #A9A9A9; 
 }
 
-/* Additional styles for buttons and inputs when hovering or focusing */
 input[type="text"]:focus, button:hover {
-    border-color: #4CAF50; /* Green border */
-    outline: none; /* Remove default focus outline */
+    border-color: #4CAF50; 
+    outline: none; 
 }
